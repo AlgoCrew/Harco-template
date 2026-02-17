@@ -2,10 +2,18 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #333333;
-  --primary-blue: #0059B3;
-  --secondary-blue: #003B91;
-  --light-gray: #F3F4F6;
+  --foreground: #111827; /* Darker, professional text */
+  
+  /* Primary Theme Colors */
+  --primary-blue: #004496;   /* Footer main / Header accent */
+  --secondary-blue: #0e3a74; /* Footer utility / Header Dark */
+  
+  /* Accent Color */
+  --accent-orange: #f97316;  /* Action items / Borders */
+  
+  /* Backgrounds & Contrast */
+  --light-gray: #f9fafb;     /* Mega Menu background */
+  --border-color: #e5e7eb;   /* Borders */
 }
 
 @theme inline {
@@ -13,7 +21,9 @@
   --color-foreground: var(--foreground);
   --color-primary: var(--primary-blue);
   --color-secondary: var(--secondary-blue);
+  --color-accent: var(--accent-orange);
   --color-light-gray: var(--light-gray);
+  --color-border: var(--border-color);
   
   --font-sans: Arial, Helvetica, sans-serif;
 }
